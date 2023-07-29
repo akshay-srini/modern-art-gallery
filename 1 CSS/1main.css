@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  background-color: black;
+  color: whitesmoke;
+  font-family: 'Poppins';
+}
+
+* {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: 'Poppins';
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+.container {
+  border-style: none;
+  width: auto;
+  margin: 0 auto;
+  padding: 1.5%;
+  background-color: #313131;
+}
+
+.container .logo {
+  width: 14em;
+  line-height: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: 1.2em;
+  float: left;
+}
+
+.container .logo span {
+  color: #c71515;
+}
+
+.text-right {
+  text-align: right;
+  cursor: pointer;
+}
+
+.navigation :hover {
+  margin: 2px;
+  -webkit-transition: 20ms;
+  transition: 20ms;
+  -webkit-transform: 2%;
+          transform: 2%;
+}
+
+/* css for navbar section */
+.navigation ul {
+  list-style-type: none;
+}
+
+.navigation ul li {
+  display: inline;
+  padding: 1%;
+}
+
+.navigation ul li a {
+  color: whitesmoke;
+}
+
+.hero-page {
+  background-image: url("../images/1.jpg");
+  padding: 23% 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logo-big {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  text-align: left;
+  padding: .0001em 1.5em;
+  width: 100%;
+  height: 100%;
+  font-size: 45px;
+  color: whitesmoke;
+  text-align: justify;
+}
+
+.logo-big span {
+  color: black;
+}
+
+.text-center {
+  text-align: center;
+  padding: 1em;
+}
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+/*About Section */
+.about-section {
+  background-color: black;
+}
+
+.about-section-container {
+  border-bottom: none;
+  padding-bottom: 1.4%;
+}
+
+.img-response {
+  width: 700px;
+  float: right;
+}
+
+.details {
+  text-align: center;
+}
+
+.image {
+  width: 100px;
+  padding-top: 2.2%;
+}
+
+.h1 {
+  font-size: 65px;
+}
+
+.p {
+  text-align: center;
+  padding-top: 1.5%;
+}
+
+/*CSS for Gallery */
+.gallery {
+  border: 1px none white;
+  padding: 4% 1%;
+}
+
+.gallery-box {
+  width: 28%;
+  float: left;
+  margin: 2%;
+  border: 1px solid #313131;
+}
+
+.img-resp {
+  width: 100%;
+}
+
+.img-curve {
+  border-radius: none;
+}
+/*# sourceMappingURL=1main.css.map */
